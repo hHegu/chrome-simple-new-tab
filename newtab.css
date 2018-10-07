@@ -1,0 +1,29 @@
+html {
+    background: black url(https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=560c3ffd0d680b8c3a43628f5f215965&auto=format&fit=crop&w=1950&q=80) no-repeat center center fixed;
+    background-size: cover !important;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.clockContainer {
+    text-align: center;
+    font-size: 7vw;
+    font-weight: 600;
+    width: auto;
+    padding: 20px 50px;
+    align-self: center;
+    background: #00000033;
+    border-radius: 0.5em;
+}
